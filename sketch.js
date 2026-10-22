@@ -581,7 +581,7 @@ function createUIButtons() {
 
   createDiv('Master Volume:').position(700, 6);
   masterVolSlider = createSlider(0, 1, 0.6, 0.01);
-  masterVolSlider.position(790, 6);
+  masterVolSlider.position(830, 10);
   masterVolSlider.input(() => setOutputVolume(masterVolSlider.value()));
 }
 
